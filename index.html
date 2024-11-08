@@ -160,7 +160,7 @@
             currentGold += cumulativeBonusAmount;
             cumulativeBonusAcquired = true;
           }
-
+          currentGold = Math.ceil(currentGold)
           goldByWave.push(currentGold);
         }
         return goldByWave;
