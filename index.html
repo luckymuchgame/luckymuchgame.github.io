@@ -149,6 +149,9 @@
             currentGold += 200;
           }
 
+          if (wave === 15)
+            currentGold += 50;
+
           if (additionalBonusByWave[wave]) {
             currentGold += additionalBonusByWave[wave];
           }
