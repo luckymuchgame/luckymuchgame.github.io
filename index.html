@@ -145,6 +145,9 @@
               10;
             currentGold += thiefGold;
           }
+          if (wave % 10 === 0) {
+            currentGold += 200;
+          }
 
           if (additionalBonusByWave[wave]) {
             currentGold += additionalBonusByWave[wave];
